@@ -17,8 +17,7 @@ A screenshot of your solution.
 ### Links
 
 - Solution URL: [Add solution URL here](https://your-solution-url.com)
-- Live Site URL: [Add live site URL here](https://your-live-site-url.com)
-
+- Live Site URL: [Click live site URL here](https://ttyn08.github.io/testimonials-grid-section-FM/)
 ## My process
 
 ### Built with
