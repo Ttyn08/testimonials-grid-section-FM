@@ -15,11 +15,11 @@
 
     /* Typography */
     --font-family-body: 'Barlow Semi Condensed', sans-serif;
-    --font-size-body: 13px;
+    --font-size-body: 0.8125rem;
     --font-weight-medium: 500;
     --font-weight-semi-bold: 600;
 
-    --box-shadow: 65px 77px 30px -24px var(--color-grey-200);
+    --box-shadow: 4.0625rem 4.8125rem 1.875rem -1.5rem var(--color-grey-200);
 }
 
 *{
@@ -39,44 +39,35 @@ main{
 }
 
 .card{
-    border-radius: 10px;
-    min-width: 290px;
+    border-radius: 0.625rem;
+    min-width: 18.125rem;
     padding: 1.489rem;
+    box-shadow: var(--box-shadow);
 }
 
 .card-danielel{
-    /* min-height: 450px; */
     background-color: var(--color-purple-500);
     color: var(--color-white);
-    box-shadow: var(--box-shadow);
 }
 
 .card-jonathan{
-    /* min-height: 240px; */
     background-color: var(--color-grey-500);
     color: var(--color-grey-100);
-    box-shadow: var(--box-shadow);
 }
 
 .card-jeanette{
-    /* min-height: 225px; */
     background-color: var(--color-white);
     color: var(--color-dark-blue);
-    box-shadow: var(--box-shadow);
 }
 
 .card-patrick{
-    /* min-height: 415px; */
     background-color: var(--color-dark-blue);
     color: var(--color-grey-200);
-    box-shadow: var(--box-shadow);
 }
 
 .card-kira{
-    /* min-height: 500px; */
     background-color: var(--color-white);
     color: var(--color-dark-blue);
-    box-shadow: var(--box-shadow);
 }
 
 .card-description{
@@ -86,16 +77,21 @@ main{
 }
 
 .card-img{
-    width: 56px;
+    width: 3.5rem;
     border-radius: 100%;
     overflow: hidden;
 }
 
 .card-img img{
-    display:block;
+    display: block;
     width: 100%;
-    height:100%;
+    height: 100%;
     object-fit: cover;
+    border-radius: 100%;
+}
+
+.card-img-border{
+    border: solid 0.25rem var(--color-purple-300);
 }
 
 .card-information{
@@ -128,15 +124,15 @@ main{
     line-height: 1.2rem;
 }
 
-@media screen and (min-width: 768px){
+@media screen and (min-width: 48rem){
     .card-danielel{
         background-image: url(images/bg-pattern-quotation.svg);
         background-repeat: no-repeat;
-        background-position: calc(100% - 75px) 0px;
+        background-position: calc(100% - 4.6875rem) 0rem;
     }
 }
 
-@media screen and (min-width: 1024px){
+@media screen and (min-width: 64rem){
     body{
         height: 100vh;
         display: flex;
@@ -169,7 +165,7 @@ main{
     }
 }
 
-@media screen and (min-width: 1440px){
+@media screen and (min-width: 90rem){
     body{
         height: 100vh;
         display: flex;
