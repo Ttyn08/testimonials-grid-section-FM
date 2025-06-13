@@ -125,6 +125,12 @@ main{
 }
 
 @media screen and (min-width: 48rem){
+    body{
+        height: 100vh;
+        display: flex;
+        justify-content: center;
+    }
+    
     .card-danielel{
         background-image: url(images/bg-pattern-quotation.svg);
         background-repeat: no-repeat;
@@ -133,11 +139,6 @@ main{
 }
 
 @media screen and (min-width: 64rem){
-    body{
-        height: 100vh;
-        display: flex;
-        justify-content: center;
-    }
     main{
         display: grid;
         place-content: center center;
@@ -166,11 +167,6 @@ main{
 }
 
 @media screen and (min-width: 90rem){
-    body{
-        height: 100vh;
-        display: flex;
-        justify-content: center;
-    }
     main{
         display: grid;
         place-content: center center;
